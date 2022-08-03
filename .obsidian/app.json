@@ -1,0 +1,16 @@
+{
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en-GB"
+  ],
+  "attachmentFolderPath": "screenshots",
+  "userIgnoreFilters": [
+    "screenshots/",
+    "Templates/"
+  ],
+  "tabSize": 8,
+  "fileSortOrder": "alphabetical",
+  "newFileLocation": "current",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
+}
