@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "Extra",
+      "path": "Home Notes/Extra.md"
+    },
+    {
+      "type": "file",
+      "title": "To do list",
+      "path": "To do list.md"
+    }
+  ]
+}

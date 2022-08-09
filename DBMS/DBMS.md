@@ -1,4 +1,3 @@
 # DBMS: 
-#dbms 
 
 ## Syllabus

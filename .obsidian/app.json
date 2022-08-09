@@ -10,7 +10,15 @@
   ],
   "tabSize": 8,
   "fileSortOrder": "alphabetical",
-  "newFileLocation": "current",
+  "newFileLocation": "root",
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false,
+  "strictLineBreaks": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

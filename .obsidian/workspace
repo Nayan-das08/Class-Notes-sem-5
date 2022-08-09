@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "f6e6c1123701d82f",
+        "id": "66b919c14e0155fa",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DBMS/Query Languages.md",
+            "file": "BS/_Behavioural Science.md",
             "mode": "source",
+            "backlinks": false,
             "source": false
           }
         }
@@ -27,7 +28,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "51912799906c0ce5",
+            "id": "95f0c5447fbb6cf5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -40,10 +41,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#network",
+                "query": "tag:#Unlinked",
                 "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -61,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235
+    "width": 197.51219177246094,
+    "collapsed": true
   },
   "right": {
     "id": "7ad621499599f444",
@@ -70,6 +72,7 @@
       {
         "id": "5b7becefdf5529ac",
         "type": "tabs",
+        "dimension": 35.38633818589026,
         "children": [
           {
             "id": "4f2244a15411e4fe",
@@ -77,8 +80,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DBMS/Query Languages.md",
-                "collapseAll": false,
+                "file": "BS/_Behavioural Science.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -94,9 +97,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DBMS/Query Languages.md",
+                "file": "BS/_Behavioural Science.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -117,28 +120,119 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DBMS/Query Languages.md"
+                "file": "BS/_Behavioural Science.md"
+              }
+            }
+          },
+          {
+            "id": "1cc9eed239c9eb61",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "e117d8fe0fa9bfe2",
+        "type": "tabs",
+        "dimension": 64.61366181410975,
+        "children": [
+          {
+            "id": "8ae40155d7f8b031",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "BS/_Behavioural Science.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -1.2,
+                  "nodeSizeMultiplier": 1.81190308988764,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.611540262172285,
+                  "repelStrength": 20,
+                  "linkStrength": 1,
+                  "linkDistance": 226,
+                  "scale": 0.38022735359824245,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "3a71a0daa7e1f3b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home Notes/To do List.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26a0fa3f11b51382",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home Notes/Extra.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "78253e41be06a464",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home Notes/_Dashboard.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 279.61590576171875,
     "collapsed": true
   },
-  "active": "51912799906c0ce5",
+  "active": "66b919c14e0155fa",
   "lastOpenFiles": [
-    "Networks/2.3 Cisco IOS cmd Structure.md",
-    "Networks/2.0 - Basic Switch and End Device Configuration.md",
-    "Networks/00  IT307.md",
-    "DBMS/Query Languages.md",
-    "DBMS/DBMS.md",
-    "Lab Files/ADA-Lab/Lab_2-July_27.md",
-    "Networks/2.4 Basic Device Config.md",
-    "Lab Files/ADA-Lab/Lab_1-July_20.md",
-    "Lab Files/Figure_Lab-1.png.md",
-    "BS/00  BS309.md"
+    "Home Notes/To do List.md",
+    "EN 3.0 - Protocols and Models.md",
+    "EN 3.1 - Rules.md",
+    "Networks/EN 2.7 - Ports, Addresses.md",
+    "Networks/_Networks.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Lab Files/EN-Lab 3 notes.md",
+    "Lab Files/DBMS_Lab_2-July29.md",
+    "Lab Files/DBMS_Lab_1-July22.md"
   ]
 }

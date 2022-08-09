@@ -1,6 +1,6 @@
 Aug 3, 2022
-Chapter - [[]]
-Topics - #dbms 
+Chapter - [[DBMS]]
+Topics -  
 
 # Query Langs
 lang in which user requests info from database
