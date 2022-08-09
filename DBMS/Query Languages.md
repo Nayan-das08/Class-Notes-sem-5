@@ -60,7 +60,7 @@ rename the table
 
 branch (b_name, b_city, assets)
 account (acc_no, b_name, balance)
-depostior (c_name, acc_no)
+depositor (c_name, acc_no)
 customer (c_name, c_street, c_city)
 loan (l_no, b_name, amount)
 borrower (c_name, l_no)

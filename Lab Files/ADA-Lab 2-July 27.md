@@ -40,6 +40,10 @@ InsertionSort(array[], size)
 }
 ```
 
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
+
 ## Pseudo-code
 ```plain
 // insertion, bubble and selection sort
@@ -131,7 +135,9 @@ int main()
 			arr[i] = rand()%100;
 		}
 		printf("\nChoose from the following :-\n");
-		printf("    1. Selection Sort \n    2. Bubble Sort \n    3. Insertion Sort");
+		printf("    1. Selection Sort 
+		      \n    2. Bubble Sort 
+		      \n    3. Insertion Sort");
 		printf("\n\n    Enter choice : ");
 		scanf("%d", &choice);
 
@@ -238,3 +244,40 @@ exited program
 ```
 
 ## Analysis
+### Selection Sort
+The algorithm iterates through the array to find the minimum or maximum elements and it swaps it to its proper location.
+
+Consider an array of length $n$. The minimum/maximum element can be at any index in the array.
+
+To place every element at its proper place, a nested loop is set ip to find the lowest element in the complete array. After the lowest element is found, a subarray is considered which contains all elements besides the one found previously, from which the lowest element is found.
+
+Therefore, we can see that the number of searches are as follows:
+$$searches = (n) + (n-1) + ... + 1$$
+$$\implies searches = \sum_{i=1}^{n}i = \frac{n(n+1)}{2} = O(n^2)$$
+$\therefore$ the obtained time complexity is $O(n^2)$
+
+### Bubble Sort
+This algorithm iterates through the array to find out-of-order pair of elements and swap them to the right side repeatedly until the array is sorted.
+
+Consider an array of length $n$. The minimum/maximum element can be at any index in the array.
+
+The array is iterated and all pairs out of order are found and swapped. This leads to the maximum/minimum element being moved to the end of the array. Following this, a subarray excluding the last element is iterated upon and the process repeats until the array is in order.
+
+Therefore, we can see that the number of searches are as follows:
+$$searches = (n) + (n-1) + ... + 1$$
+$$\implies searches = \sum_{i=1}^{n}i = \frac{n(n+1)}{2} = O(n^2)$$
+$\therefore$ the obtained time complexity is $O(n^2)$
+
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
+
+
+### Insertion Sort
+The algorithm iterates through the array considering it element by element and swap the element to its correct location until the array is fully sorted.
+
+Consider an array of length $n$. The array is divided into two subarrays, one sorted and one unsorted. One by one, elements from unsorted are considered and then they are inserted into the sorted subarray at their correct spot. Hence, we can understand that the sorted subarray grows from 1 element to 2 element and so on until it is $n$ elements long. Therefore, the number of searches needed to insert the element at the correct spot i worst case scenario (i.e. the end of the array) will be:
+
+$$searches = (n) + (n-1) + ... + 1$$
+$$\implies searches = \sum_{i=1}^{n}i = \frac{n(n+1)}{2} = O(n^2)$$
+$\therefore$ the obtained time complexity is $O(n^2)$

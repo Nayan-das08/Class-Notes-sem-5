@@ -3,12 +3,12 @@
 Aug 9, 2022
 Topics - 
 
-# Communication Funda
+# 1 Communication Funda
 - a sender/source
 - a receiver/destination
 - a media/channel
 
-# Process of communication in computer networks
+# 2 Process of communication in computer networks
 message source -> transmitter -> transmission medium -> receiver ->message destination
 
 >[!NOTE]
@@ -16,28 +16,28 @@ message source -> transmitter -> transmission medium -> receiver ->message desti
 
 Protocols = rules
 
-# Rule Establishment
+# 3 Rule Establishment
 establishing the rules before communicating
 
-## Protocols must account following
+## 3.1 Protocols must account following
 - identified sender and receiver
 - common language and grammar (rules of language)
 	- if not present we need an interpreter
 - speed and timing of delivery
 - confirmation/acknowledgement
 
-# Protocol Req
-## message encoding
+# 4 Protocol Req
+## 4.1 message encoding
 process of converting info into another acceptable form of transmission
 decoding reverses the process to interpret the message
 
 message source -> **encoder** -> transmitter -> transmission medium -> receiver -> **decoder** -> message destination
 
-## message formatting and encapsulation
+## 4.2 message formatting and encapsulation
 message must have a proper format/structure
 the format depends on the type of message
 
-## message size
+## 4.3 message size
 the message sent is broken into small packets of fixed size
 thus, size is an important factor
 the msg must meet minimum and max size requirements

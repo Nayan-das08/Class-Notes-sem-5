@@ -12,8 +12,9 @@ C and Python
 ```plain
 RecursiveLinearSearch(array[], target, loc)
 {
-	1. if array[loc] = target, then: print "target found at loc" and exit
-	2. else: call RecursiveLinearSearch() for loc = loc + 1
+	1. if array[loc] = target, then: print "target found at loc"
+	   and exit
+	3. else: call RecursiveLinearSearch() for loc = loc + 1
 }
 
 RecursiveBinarySearch(array[], target, low, high)
@@ -21,10 +22,13 @@ RecursiveBinarySearch(array[], target, low, high)
 	1. set m = (low + high) / 2
 	2. if low > high, then exit
 	else: 
-		3. if array[m] = target, then print "target found at loc" and exit
+		3. if array[m] = target, then print "target found at loc" 
+		   and exit
 		   else:
-				4. if target lies in the upper half, then call RecursiveBinarySearch() for high = m - 1
-				5. else if target lies in lower half, then call RecursiveBinarySearch() for low = m + 1
+				4. if target lies in the upper half, then 
+				   call RecursiveBinarySearch() for high = m - 1
+				6. else if target lies in lower half, then 
+				   call RecursiveBinarySearch() for low = m + 1
 }
 ```
 
@@ -48,11 +52,11 @@ int RecLinearSearch(int arr[], int target, int loc, int *step)
 		return RecLinearSearch(arr, target, loc+1, step);
 }
 
-int RecBinarySearch(int arr[], int low, int high, int target, int *step)
+int RecBinarySearch(int arr[], int low, int high,
+int target, int *step)
 {
 	(*step)++;
 	int m = (high + low)/2;
-	// printf("low = %d \t high = %d \t m = %d\n", arr[low], arr[high], arr[m]);
 	if (low > high)
 		return -1;
 	else
@@ -103,7 +107,8 @@ int main()
 	}
 	fclose(file_linear);
 	fclose(file_binary);
-	printf("Linear and Binary Searchs are successfully performed on an array with varying size\n");
+	printf("Linear and Binary Searchs are successfully
+	 performed on an array with varying size\n");
 	printf("Plotting the graph using python code");
 	system("python plot_linear_binary.py");
 	return 0;
@@ -142,7 +147,8 @@ plt.show()
 
 ## Output
 ```plain
-Linear and Binary Searchs are successfully performed on an array with varying size
+Linear and Binary Searchs are successfully performed 
+on an array with varying size
 Plotting the graph using python code
 ```
 
