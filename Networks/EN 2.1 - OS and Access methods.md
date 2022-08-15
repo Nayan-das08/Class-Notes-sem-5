@@ -18,7 +18,7 @@ different methods of configuring network devices
 - provides ***out of band*** service - access via dedicated management channel for maintenance only.
 - this port is used to configure a networking device with an end device
 - doesn't need active networking services for initial config
-- the end device needs terminal emulation software ^[Putty, Tera Team, SecureCRT]
+- the end device needs terminal emulation software [^1]
 
 ## 2. Secure Shell (SSH)
 - ***in band*** method for remotely establishing secure CLI connection
@@ -32,3 +32,4 @@ different methods of configuring network devices
 - thus used for lab envt.
 
 
+[^1]: Putty, Tera Team, SecureCRT, used to connect to a networking device (by a console, SSH or Telnet connection), enhances productivity by cosmetic formatting features.

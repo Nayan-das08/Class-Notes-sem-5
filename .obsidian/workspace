@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "d285f7dca828b9c9",
+        "id": "57f5309fe81a985e",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -217,17 +217,17 @@
     "width": 279.61590576171875,
     "collapsed": true
   },
-  "active": "d285f7dca828b9c9",
+  "active": "57f5309fe81a985e",
   "lastOpenFiles": [
-    "EN 3.1 - Rules.md",
+    "Networks/EN 2.3 - IOS Command Modes, Config Modes.md",
+    "Networks/EN 2.2 - Command Structure, Hot keys.md",
     "Networks/EN 2.0 - Cisco IOS and device configuration.md",
-    "EN 3.0 - Protocols and Models.md",
+    "Networks/EN 2.1 - OS and Access methods.md",
     "Home Notes/To do List.md",
-    "Networks/Cisco IOS MOC.md",
-    "Lab Files/ADA-Lab 1-July 20.md",
-    "Lab Files/ADA-Lab 2-July 27.md",
-    "Lab Files/_Lab Files.md",
-    "Home Notes/_Dashboard.md",
-    "DBMS/Query Languages.md"
+    "EN 3.2 - Protocols.md",
+    "EN 3.3 - Network Protocol Suite.md",
+    "EN 3.1 - Rules.md",
+    "EN 3.0 - Protocols and Models.md",
+    "Networks/_Networks.md"
   ]
 }
