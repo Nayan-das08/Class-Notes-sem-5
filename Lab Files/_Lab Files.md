@@ -2,11 +2,21 @@
 # _Lab Files
 
 ## ADA-Lab
-[[ADA-Lab 1-July 20]]
-[[ADA-Lab 2-July 27]]
+```dataview
+list
+from #lab/ada  
+sort file.name asc
+```
 
 ## Networks-Lab
+```dataview
+list from #lab/en 
+sort file.name asc
+```
 
 ## DBMS-Lab
-[[DBMS_Lab_1-July22]]
-[[DBMS_Lab_2-July29]]
+```dataview
+list
+from #lab/dbms
+sort file.name asc
+```

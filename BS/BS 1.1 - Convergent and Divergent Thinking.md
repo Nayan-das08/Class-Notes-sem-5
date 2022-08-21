@@ -18,9 +18,12 @@ Topics -
 * perceive everything as an *opportunity*
 
 ## creativity starts with a process: *ICEDIP*
+| letter |
 I - *inspiration*
 C - *clarification*, on our goals, needs
 E - *evaluation*
 D - distillation, filter ideas and coming up with one final goal
 I - *incubation*, letting the idea go, thinking about it in a relaxed state
 P - *perspiration*, implementing the idea
+
+

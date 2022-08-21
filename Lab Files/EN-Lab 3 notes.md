@@ -1,4 +1,5 @@
-%%[[_Lab Files#Networks-Lab]]%%
+%%[[_Lab Files]]%%
+%%#lab/en%%
 # Lab 3 notes
 open CLI of switch
 shows the def config and the connected end devices

@@ -3,7 +3,7 @@
 ## college work
 - [ ] EN
 	- [x] complete chapter 2 notes
-	- [ ] **assignment (terminologies)**
+	- [x] **assignment (terminologies)**
 - [ ] ADA
 	- [ ] from books
 	- [ ] **assignment**
@@ -13,7 +13,7 @@
 
 ## labs
 - [ ] [[_Lab Files#ADA-Lab |ADA-Lab]] 
-	- [ ] Lab 2 - sorting 
+	- [x] Lab 2 - sorting 
 		- [ ] analysis
 - [ ] [[_Lab Files#DBMS-Lab|DBMS-Lab]]
 	- [ ] Lab 2 - constraints

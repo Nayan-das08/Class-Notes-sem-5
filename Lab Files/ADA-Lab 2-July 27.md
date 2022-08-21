@@ -1,4 +1,5 @@
-%%[[_Lab Files#ADA-Lab]]%%
+%%[[_Lab Files]]%%
+%%#lab/ada%% 
 # Experiment 2
 July 27, 2022
 

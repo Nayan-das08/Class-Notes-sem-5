@@ -1,4 +1,5 @@
-%%[[_Lab Files#DBMS-Lab]]%%
+%%[[_Lab Files]]%%
+%%#lab/dbms%% 
 # Experiment 2
 Implementing ***constraints*** on tables in SQL.
 

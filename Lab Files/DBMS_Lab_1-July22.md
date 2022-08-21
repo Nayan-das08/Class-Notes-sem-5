@@ -1,4 +1,5 @@
-%%[[_Lab Files#DBMS-Lab]]%%
+%%[[_Lab Files]]%%
+%%#lab/dbms%%
 # Experiment 1
 Executing the **Data Definition Language** and **Data Manipulation Language** commands.
 
