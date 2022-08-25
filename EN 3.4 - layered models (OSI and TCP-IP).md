@@ -14,15 +14,27 @@ Topics -
 - describes how interaction takes place between each layer
 
 ## layers
-| Sno | Layer        | Description                                                                     |
-| --- | ------------ | ------------------------------------------------------------------------------- |
-| 7   | Application  | protocols for process-to-process communications                                 |
-| 6   | Presentation | provides common representation of data transferred b/w layer 7 services                  |
-| 5   | Session      | to organize its dialogue and to manage data exchange done in layer 6            |
-| 4   | Transport    | segment, transfer and reassemble data ([[EN 3.5 - data encapsulation]])                         |
-| 3   | Network      | exchange individual pieces of data over the network b/w identified users        |
-| 2   | Data link    | describe methods for exchanging data frames ([[EN 3.5 - data encapsulation]]) over common media |
-| 1   | Physical     |       describe mechanical, electrical, functional, and procedural means to (de)activate and maintain physical connection       |
+| Sno | Layer        | Description                                                                                                        | extra | 
+| --- | ------------ | ------------------------------------------------------------------------------------------------------------------ | ----- |
+| 7   | Application  | protocols for process-to-process communications                                                                    |       |
+| 6   | Presentation | provides common representation of data transferred b/w layer 7 services                                            |       |
+| 5   | Session      | to organize its dialogue and to manage data exchange done in layer 6                                               |       |
+| 4   | Transport    | segment, transfer and reassemble data ([[EN 3.5 - data encapsulation]])                                            |       |
+| 3   | Network      | exchange individual pieces of data over the network b/w identified users                                           |       |
+| 2   | Data link    | describe methods for exchanging data frames ([[EN 3.5 - data encapsulation]]) over common media                    |       |
+| 1   | Physical     | describe mechanical, electrical, functional, and procedural means to (de)activate and maintain physical connection |       |
+
+Data link
+- works on MAC
+- sharing common channel without interference
+
+Physical
+- responsible for actual connection
+
+>[!NOTE]
+>half duplex - either send or receive, only one way communication
+>full duplex - 2 way communication
+
 
 ---
 

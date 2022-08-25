@@ -1,5 +1,6 @@
 >Chapter - [[EN 3.0 - Protocols and Models]]
 
+#incomplete
 Aug 20, 2022
 Topics - 
 
@@ -14,4 +15,5 @@ Topics -
 - This process is called ***SEGMENTATION*** 
 - These packets sent can be received from different paths, thus not dedicating a single link
 - results in increased speed, efficiency reliability
-- 
+
+

@@ -4,46 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "16299e4c512450a7",
-        "type": "leaf",
-        "state": {
-          "type": "graph",
-          "state": {}
-        }
-      },
-      {
-        "id": "0228f48cb4081c6e",
+        "id": "daae9d83e175b256",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Home Notes/_Dashboard.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "2fedc4ce7826e497",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Networks/EN 2.0 - Cisco IOS and device configuration.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "2dacb1a9f1c2f6d0",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Networks/EN 2.0 - Cisco IOS and device configuration.md",
+            "file": "EDA.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -92,8 +58,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -115,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networks/EN 2.0 - Cisco IOS and device configuration.md",
+                "file": "EDA.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networks/EN 2.0 - Cisco IOS and device configuration.md",
+                "file": "EDA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -155,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networks/EN 2.0 - Cisco IOS and device configuration.md"
+                "file": "EDA.md"
               }
             }
           },
@@ -180,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Networks/EN 2.0 - Cisco IOS and device configuration.md",
+                "file": "EDA.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -255,17 +220,17 @@
     "width": 279.61590576171875,
     "collapsed": true
   },
-  "active": "2dacb1a9f1c2f6d0",
+  "active": "daae9d83e175b256",
   "lastOpenFiles": [
-    "Networks/EN 2.4 - Device Config, Passwords.md",
-    "Networks/EN 2.0 - Cisco IOS and device configuration.md",
-    "Home Notes/_Dashboard.md",
     "Home Notes/To do List.md",
-    "Networks/EN 3.0 - Protocols and Models.md",
-    "EN 3.4 - layered models (OSI and TCP-IP).md",
-    "EN 3.5 - data encapsulation.md",
+    "NTCC/Abstract & Intro.md",
     "Untitled.md",
-    "Networks/EN 3.3 - Network Protocol Suite.md",
-    "EN 3.4 - OSI and TCP-IP models.md"
+    "NTCC/Progress Diary.md",
+    "NTCC/ANN Concepts.md",
+    "NTCC/Jam book.md",
+    "Templates/Subject  template.md",
+    "Templates/Chapter template.md",
+    "Templates/Lab file template.md",
+    "Templates/Notes template.md"
   ]
 }

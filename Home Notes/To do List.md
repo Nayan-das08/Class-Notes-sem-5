@@ -1,24 +1,26 @@
 >[[_Dashboard]]
+
 # To do list
-## college work
-- [ ] EN
-	- [x] complete chapter 2 notes
-	- [x] **assignment (terminologies)**
-- [ ] ADA
-	- [ ] from books
-	- [ ] **assignment**
-- [ ] DBMS
-	- [ ] from book
-	- [ ] **assignment**
+- [ ] NTCC
+	- [ ] ppt
+	- [ ] diary
+		- [ ] complete
+		- [ ] print
+	- [ ] WPRs
+		- [ ] print
+	- [ ] print paper + plag
+- [ ] EN assignment
+- [ ] ADA assignment
+- [ ] DBMS assignment
 
 ## labs
-- [ ] [[_Lab Files#ADA-Lab |ADA-Lab]] 
-	- [x] Lab 2 - sorting 
-		- [ ] analysis
-- [ ] [[_Lab Files#DBMS-Lab|DBMS-Lab]]
+- [ ] ADA-Lab
+	- [ ] analysis
+- [ ] DBMS-Lab
 	- [ ] Lab 2 - constraints
 		- [ ] foreign key
-	- [ ] Lab 3 - something
+	- [ ] Lab 3 - aggregate functions
 - [ ] AIML
 	- [ ] Lab 1 - basics of pandas
 	- [ ] Lab 2 - slicing and dicing of dataframe
+	- [ ] Lab 3 - 

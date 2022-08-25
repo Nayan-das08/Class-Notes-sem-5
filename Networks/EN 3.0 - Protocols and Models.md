@@ -6,4 +6,5 @@
 ```dataview
 LIST
 FROM [[EN 3.0 - Protocols and Models]]
+sort file.name asc
 ```
