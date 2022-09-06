@@ -1,7 +1,5 @@
->Chapter - [[]]
+>Back - [[_Networks]]
 
-#Unlinked 
-#incomplete 
 Aug 30, 2022
 Topics - 
 
@@ -40,5 +38,17 @@ result = 128+64 = 192
 
 168 = 10101000 = A8
 D2 =11010010 = 128+64+32+2 = 226
-Fe88::7d2:516d:Fbd6:4233
-Fe88:0:0:0:7d2:516d:Fbd6:4233 
+`Fe88::7d2:516d:Fbd6:4233
+`Fe88:0000:0000:0000:07d2:516d:Fbd6:4233
+
+| hex  | binary intermediate                                                          | binary |
+| ---- | ---------------------------------------------------------------------------- | ------ |
+| Fe88 | $15h\left(3\right)+14h\left(2\right)+8h\left(1\right)+8h\left(0\right)$      | 65160  |
+| 0000 | $0$                                                                          | 0      |
+| 0000 | $0$                                                                          | 0      |
+| 0000 | $0$                                                                          | 0      |
+| 07d2 | $0\cdot h\left(3\right)+7h\left(2\right)+13h\left(1\right)+2h\left(0\right)$ | 2002   |
+| 516d | $5h\left(3\right)+1h\left(2\right)+6h\left(1\right)+13h\left(0\right)$       | 20845  |
+| Fbd6 | $15h\left(3\right)+11h\left(2\right)+13h\left(1\right)+6h\left(0\right)$     | 64470  |
+| 4233 | $4h\left(3\right)+2h\left(2\right)+3h\left(1\right)+3h\left(0\right)$        | 16947  |
+

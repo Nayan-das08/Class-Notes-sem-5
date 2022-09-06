@@ -5,6 +5,7 @@
 ```dataview
 LIST 
 FROM [[_Networks]] AND -#MOC
+sort file.name asc
 ```
 
 ## Map Of Contents
