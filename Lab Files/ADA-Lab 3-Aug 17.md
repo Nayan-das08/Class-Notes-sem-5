@@ -19,7 +19,19 @@ Put algo here
 ```plain
 QuickSort(array[], p, r)
 {
-	1. if p < r
+	if p < r, then:
+		1. set q = partition(array, p, r)
+		2. QuickSort(array, p, q-1)
+		3. QuickSort(array, q+1, r)
+}
+
+Partition(array[], p, q, r)
+{
+	1. pivot = array[r]
+	2. set i = p
+	3. Repeat for j=p to r
+		1. if 
+	
 }
 ```
 

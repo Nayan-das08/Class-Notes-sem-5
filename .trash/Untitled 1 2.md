@@ -1,0 +1,11 @@
+- [ ] paper
+	- [ ] 2 copies
+	- [ ] spiral
+	- [ ] add min plag report at the end
+- [ ] ppt
+- [x] WPRs
+	- [x] print
+	- [x] sign
+- [x] Diary
+	- [x] print
+	- [x] sign
