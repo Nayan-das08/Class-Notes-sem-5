@@ -13,7 +13,7 @@ Topics -
 ## the standards address three areas
 1. Physical Components
 2. Encoding
-3. Signaling
+3. Signalling
 
 ---
 # physical components

@@ -21,5 +21,6 @@
     "margin": "0",
     "downscalePercent": 70
   },
-  "trashOption": "local"
+  "trashOption": "local",
+  "readableLineLength": true
 }

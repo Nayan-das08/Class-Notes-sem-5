@@ -1,6 +1,5 @@
 >Chapter - [[EN 3.0 - Protocols and Models]]
 
-#incomplete 
 Aug 17, 2022
 Topics - 
 
@@ -41,15 +40,4 @@ Topics -
 | TIA   | Telecommunications Industry Association                                         | radio equipment, cell towers, VoIP devices, satellite communication            |
 | ITU-T | International Telecommunications Union-Telecommunication Standardization Sector | video compression, IPTV, broadband communications (Digital Subscriber Line)    |
 
-
-- iana
-- iee
-- icann
-- ietf
-- tra
-- itu
-
-
-# ISOC
-open dev, evolution of internet
-
+---

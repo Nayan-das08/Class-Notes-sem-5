@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "a4608fcf3f922dca",
+        "id": "dc466da6c998c86b",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -57,7 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 197.51219177246094,
+    "width": 306.51219177246094,
     "collapsed": true
   },
   "right": {
@@ -74,7 +74,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networks/EN 4.0 - Physical Layer.md",
+                "file": "Home Notes/_Dashboard.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,7 +91,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networks/EN 4.0 - Physical Layer.md",
+                "file": "Home Notes/_Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networks/EN 4.0 - Physical Layer.md"
+                "file": "Home Notes/_Dashboard.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Networks/EN 4.0 - Physical Layer.md",
+                "file": "Home Notes/_Dashboard.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -177,32 +177,6 @@
             }
           },
           {
-            "id": "3a71a0daa7e1f3b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home Notes/To do List.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26a0fa3f11b51382",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home Notes/Extra.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "78253e41be06a464",
             "type": "leaf",
             "state": {
@@ -215,43 +189,25 @@
               }
             }
           }
-        ]
-      },
-      {
-        "id": "51d5b8b8456f92a9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d756b5e4d3a9e180",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networks/EN 4.0 - Physical Layer.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 279.61590576171875,
     "collapsed": true
   },
-  "active": "a4608fcf3f922dca",
+  "active": "dc466da6c998c86b",
   "lastOpenFiles": [
-    "Networks/EN 4.1 - Purpose of Physical Layer.md",
-    "Networks/EN 4.0 - Physical Layer.md",
-    "Networks/EN 4.2 - Physical Layer Characteristics.md",
     "Networks/_Networks.md",
-    "Networks/EN 5.0 - Number Systems.md",
-    "Networks/EN 2.7 - Ports, Addresses.md",
-    "Templates/Notes template.md",
-    "Templates/Chapter template.md",
-    "Templates/Lab file template.md",
-    "Templates/MOC template.md"
+    "Home Notes/_Dashboard.md",
+    "Home Notes/Extra.md",
+    "Home Notes/To do List.md",
+    "Networks/EN 4.6 - Wireless Media.md",
+    "Networks/EN 4.5 - Fibre Optics.md",
+    "Networks/EN 4.4 - UTP.md",
+    "Networks/EN 4.3 - Copper Cabling.md",
+    "Networks/en 3.7 - standard org.md",
+    "Networks/EN 4.2 - Physical Layer Characteristics.md"
   ]
 }
