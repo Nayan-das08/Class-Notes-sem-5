@@ -1,6 +1,5 @@
 %%[[_Lab Files]]%%
 %%#lab/en%% 
-%%#incomplete%% 
 # Lab 4 
 vlan is used to separate/club some FastEthernet ports out of 24 for the same configuration
 

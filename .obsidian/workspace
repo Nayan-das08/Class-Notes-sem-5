@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dc466da6c998c86b",
+        "id": "4161907f675415de",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "EN 6.1 - Purpose of Data Link Layer.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -74,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Notes/_Dashboard.md",
+                "file": "EN 6.1 - Purpose of Data Link Layer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home Notes/_Dashboard.md",
+                "file": "EN 6.1 - Purpose of Data Link Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -114,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home Notes/_Dashboard.md"
+                "file": "EN 6.1 - Purpose of Data Link Layer.md"
               }
             }
           },
@@ -147,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home Notes/_Dashboard.md",
+                "file": "EN 6.1 - Purpose of Data Link Layer.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,17 +202,17 @@
     "width": 279.61590576171875,
     "collapsed": true
   },
-  "active": "dc466da6c998c86b",
+  "active": "4161907f675415de",
   "lastOpenFiles": [
-    "Networks/_Networks.md",
-    "Home Notes/_Dashboard.md",
-    "Home Notes/Extra.md",
-    "Home Notes/To do List.md",
+    "EN 6.2 - Topologies.md",
+    "EN 6.1 - Purpose of Data Link Layer.md",
+    "EN 6.0 - Data Link Layer.md",
+    "Networks/EN 3.6 - data access.md",
+    "Networks/EN 3.5 - data encapsulation.md",
     "Networks/EN 4.6 - Wireless Media.md",
-    "Networks/EN 4.5 - Fibre Optics.md",
-    "Networks/EN 4.4 - UTP.md",
-    "Networks/EN 4.3 - Copper Cabling.md",
-    "Networks/en 3.7 - standard org.md",
-    "Networks/EN 4.2 - Physical Layer Characteristics.md"
+    "Home Notes/_Dashboard.md",
+    "Lab Files/EN-Lab 5 notes.md",
+    "Lab Files/EN-Lab 4 notes.md",
+    "Lab Files/EN-Lab 3 notes.md"
   ]
 }
