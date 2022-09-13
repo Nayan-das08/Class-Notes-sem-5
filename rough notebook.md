@@ -41,6 +41,3 @@ two states
 8. IoT security mechanism via blockchain and 5g and 6g implementation through AI
 	- nop
 
-
-ccoisnco
-odbqoncqp
