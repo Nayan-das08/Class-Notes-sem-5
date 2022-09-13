@@ -40,3 +40,7 @@ two states
 	- most prolly cnn on scans
 8. IoT security mechanism via blockchain and 5g and 6g implementation through AI
 	- nop
+
+
+ccoisnco
+odbqoncqp

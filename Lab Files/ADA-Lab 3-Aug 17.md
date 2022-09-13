@@ -1,10 +1,10 @@
 %%[[_Lab Files]]%%
 %%#lab/ada%%
-# Experiment 
+# Experiment 3
 Aug 17, 2022
 
 ## Objective
-
+Implement Merge and Quick sort algorithms on an array of fixed size
 
 ## Resources
 C
@@ -12,8 +12,41 @@ C
 ## Program Logic / Algorithm
 ### Merge Sort
 ```plain
-Put algo here
+MergeSort(array[], p, r)
+{
+	if p < r, then:
+		1. set q = (p+r)/2
+		2. MergeSort(array, p, q)
+		3. MergeSort(array, q+1, r)
+		4. Merge(array, p, q, r)
+}
+
+Merge(array[], p, q, r)
+{
+	1. set n1 = q-p+1
+	2. set n2 = r-q
+	3. create arrays L[n1] and R[n2]
+	4. Repeat for i=1 to n1
+		5. set L[i] = array[p+i-1]
+	6. Repeat for j=1 to n2
+		7. set R[j] = array[q+j]
+	8. set L[n1+1] = infinity
+	9. set R[n2+1] = infinity
+	10. set i = 1
+	11. set j = 1
+	12. Repeat for k=p to r
+		13. if L[i] < R[j], then
+			14. set array[k] = L[i]
+			15. set i = i+1
+		16. else
+			17. set array[k] = R[j]
+			18. set j = j+1
+}
 ```
+
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
 
 ### Quick Sort
 ```plain
@@ -30,12 +63,15 @@ Partition(array[], p, q, r)
 	1. pivot = array[r]
 	2. set i = p
 	3. Repeat for j=p to r
-		1. if 
-	
+		4. if array[j] <= pivot
+			5. set i = i+1
+			6. exchange array[j] with array[i]
+	7. exchange array[i+1] with array[r]
+	8. return i+1
 }
 ```
 
-## Pseudo-code
+## Source-code
 ```plain
 // merge and quick sort
 
@@ -258,3 +294,10 @@ exited program
 ```
 
 ## Analysis
+Comparison of Sorting Algorithms based on their time complexities
+
+| Cases        | Bubble Sort | Selection Sort | Insertion Sort | Merge Sort         | Quick Sort         |
+| ------------ | ----------- | -------------- | -------------- | ------------------ | ------------------ |
+| Best Case    | $O(n)$      | $O(n^2)$       | $O(n)$         | $O(n\cdot log(n))$ | $O(n\cdot log(n))$ |
+| Worst Case   | $O(n^2)$    | $O(n^2)$       | $O(n^2)$       | $O(n\cdot log(n))$             | $O(n^2)$             |
+| Average Case | $O(n^2)$    | $O(n^2)$       | $O(n^2)$       | $O(n\cdot log(n))$             | $O(n\cdot log(n))$             |
