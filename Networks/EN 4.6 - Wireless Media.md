@@ -54,7 +54,4 @@ requires
 1. wireless access point
 2. wireless NIC adapters
 
-this is some update
-some other update
-ancasncpanc
-blah blah blah
+deleting all updates
