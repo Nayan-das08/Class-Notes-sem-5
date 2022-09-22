@@ -79,4 +79,6 @@ two types of techniques
 
 ### 2. unsupervised
 - can be used for unlabelled data
-- 
+
+
+weogvnweodnoiwdenpinadsv 
