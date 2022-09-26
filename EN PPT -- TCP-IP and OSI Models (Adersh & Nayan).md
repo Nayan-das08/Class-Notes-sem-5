@@ -1,39 +1,38 @@
-# OSI MODEL
+# OSI Model
 ## Physical Layer:
 - Actual Physical Connection
-- Information in Bits
 - Hubs/Cables
+- ***PDU sent as: Information in Bits***
 
 ## Data Link Layer:
 - Node to Node Delivery
-- Frames
 - Switches
+- ***PDU: Frames***
 
 ## Network Layer:
 - Host to Host Delivery
-- Packet
-- Routers
+- ***PDU: Packet***
 
 ## Transport Layer:
 - Provide Network Layer Services to Application Layer
-- Segment
-- Firewall
+- Segment, transfer and reassemble data
+- ***PDU: Segment***
 
 ## Session Layer:
 - Establish Connections, Maintenance, Authentication and Security
-- Message
-- Gateway
+- ***PDU: Data*** 
 
 ## Presentation Layer:
 - Data From application layer is formatted and encoded for transmission
-- Message
+- ***PDU: Data***
 
 ## Application Layer:
 - Helps in identifying the client and sync communication.
+- ***PDU: Data***
 
 ---
 
-# TCP/IP MODEL (ATIN)
+# TCP/IP Model (ATIN)
 ## Application Layer:
 - Represents data to user, encoding and dialog 
   control
@@ -49,15 +48,15 @@
 - IPv4, IPv6
 
 ## Network Access Layer:
-- Control the hardware devices and media that 
-- make up the network
+- Control the hardware devices and media that make up the network
 - Ethernet, WLAN
 
 ---
 
 # Comparison
 - Now, both of these models are layered style models, and they certainly are interoperable.
-- In fact:
+
+In fact:
 
 | OSI Reference Model (7 Layers) | TCP/IP Model (4 Layers) |
 |:------------------------------:|:-----------------------:|
@@ -68,4 +67,9 @@
 |            Network             |        Internet         |
 |           Data Link            |     Network Access      |
 |            Physical            |     Network Access      |
+
+
+
+>[!NOTE]
+>We can see there is a direct mapping between the two models
 

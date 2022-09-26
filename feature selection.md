@@ -1,7 +1,5 @@
->Chapter - [[]]
+>Chapter - [[_AIML]]
 
-#Unlinked 
-#incomplete 
 Sep 15, 2022
 Topics - 
 
@@ -17,7 +15,7 @@ way of selecting the subsets of the most relevant features from the original fea
 - if we input the dataset with all these redundant and irrelevant features, it negatively impact and reduce the overall performance and the accuracy of the model
 
 ## need for feature selection
-1. helps in avoiding the curse of dimensionality 
+1. helps in avoiding the ***curse*** of dimensionality 
 2. helps in simplification of model so that it can be easily interpreted by the user
 3. reduces the training time
 4. reduce overfitting, hence enhance generalization
@@ -81,4 +79,64 @@ two types of techniques
 - can be used for unlabelled data
 
 
-weogvnweodnoiwdenpinadsv 
+- we have coloured image
+- the three image can be treated as unit by expressing each group of three corresponding pixels as vectors
+- for example: let $x_1$, $x_2$ and $x_3$ be the value of the pixel for the RGB components
+- these three elements can be expressed in the form of a 3D column vector $X$ where $X = [x_1, x_2, x_3]$
+- this vector represents one common pixel in all three images
+- if the images are of size $M\times N$, there will be a total $k=MN$ 3D vectors 
+- if we have M registered images the vector will be M dimensional
+- so we can treat the vectors as random quantities
+
+
+...something i missed...
+
+- covariance of random vectors
+	- mean vector of population is defined as $m_X = E(X)$
+	- where E is expected value of the arguments
+	- subscript denotes that $m$ is associated with the population of $X$ vectors
+	- covariance of the vector population is defined as $C_X = E[(x-m_X)(x-m_X)^T]$
+	- because X is M dimensional, $C_X= E[(x-m_X)(x-m_X)^T]$ = qncpq is order of MXN 
+	- The matrix $C_X$ real and symmetric
+	- the element x_i and x_j are uncorrelated, their covar is zero
+	- for k vector samples, random population, the mean vector can be approximated from the sample by using the familiar average function $m_x = 1/k summ_1_to_k(x_k)
+	- similarly by expanding the product (x-m_x)(x-m_x)^T we get m_x = 1/k summ_1_to_k(x_k*x_k^T - m_x*m_x)
+	- let A be the matrix whose rows are formed from the eigenvector of C_X, so that first row of A is the eigenvector corresponding to the largest eigenvalue and last row is the eigenvector corresponding to the smallest eigenvector
+	- y = A(x - m_X)
+	- this expression is called Hoteller transform
+
+# how to choose a feature selection model
+variables are of two main types
+1. numerical var
+2. categorical var
+
+based on whether we have num or cat var as imput or output, we can choose our feature selection model as follows
+1. input and output both are num
+	- pearson correlation model
+	- spearman rank coeff
+2. input is num output cat
+	- ANOVA
+	- Kendall something
+3. input is cat output is numerical
+	- Kendall rank coeff
+4. input cat cat output
+	- chi square
+	- mutual info
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>[!NOTE]
+>PCA = Principal Component Analysis
+
