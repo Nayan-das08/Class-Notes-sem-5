@@ -13,7 +13,8 @@ CREATE TABLE Department
 );
 ```
 ---
-```plainCREATE TABLE Employee
+```plain
+CREATE TABLE Employee
 (
 	e_ID 		char(4)			PRIMARY KEY, 
 	e_Name 		varchar(20)		NOT NULL, 
