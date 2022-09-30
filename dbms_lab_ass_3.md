@@ -108,7 +108,8 @@ SELECT e_name, TIMESTAMPDIFF(YEAR, hiredate, CURDATE()) AS "Years of service" FR
 ```
 
 ```plain
-mysql> SELECT e_name, TIMESTAMPDIFF(YEAR, hiredate, CURDATE()) AS "Years of service" FROM Employee;
+mysql> SELECT e_name, TIMESTAMPDIFF(YEAR, hiredate, CURDATE())
+       AS "Years of service" FROM Employee;
 +----------+------------------+
 | e_name   | Years of service |
 +----------+------------------+

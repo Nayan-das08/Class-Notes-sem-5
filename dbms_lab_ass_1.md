@@ -37,7 +37,8 @@ CREATE TABLE Student_0148
     D_O_B           date            NOT NULL, 
     total_amt       decimal(10,2)   NOT NULL, 
     amt_paid        decimal(10,2)   NOT NULL,
-    installment     char(1)         NOT NULL CHECK (installment="I" OR installment="F")
+    installment     char(1)         NOT NULL 
+    CHECK (installment="I" OR installment="F")
 );
 ```
 ---
@@ -58,7 +59,8 @@ CREATE TABLE Course_taken_0148
     prospectus_no   integer(10), 
     course_no       char(4), 
     start_dt        date, 
-    full_part       char(1)        NOT NULL CHECK (full_part="F" OR full_part="P"),
+    full_part       char(1)        NOT NULL 
+    CHECK (full_part="F" OR full_part="P"),
     time_slot       char(2), 
     performance     varchar(20),
     FOREIGN KEY (prospectus_no) REFERENCES Student_0148(prospectus_no),
@@ -349,11 +351,13 @@ HAVING count(*) =
 ```
 
 ```plain
-mysql> SELECT course_no, count(*) AS "Maximum number of students" FROM course_taken_0148
+mysql> SELECT course_no, count(*) AS "Maximum number of students" 
+    -> FROM course_taken_0148
     -> GROUP BY course_no
     -> HAVING count(*) =
     -> (
-    ->     SELECT max(count) FROM (SELECT course_no, count(*) as count FROM course_taken_0148 GROUP BY course_no) course_count
+    ->     SELECT max(count) FROM (SELECT course_no, count(*) as count 
+    ->     FROM course_taken_0148 GROUP BY course_no) course_count
     -> );
 +-----------+----------------------------+
 | course_no | Maximum number of students |
@@ -464,7 +468,8 @@ mysql> SELECT course_no, count(*) FROM Course_taken_0148
     -> (
     ->     SELECT max(count) FROM
     ->     (
-    ->         SELECT course_no as course, count(*) as count FROM Course_taken_0148
+    ->         SELECT course_no as course, count(*) as count 
+    ->         FROM Course_taken_0148
     ->         WHERE start_dt like "____-09-__"
     ->         GROUP BY course_no
     ->     ) new
