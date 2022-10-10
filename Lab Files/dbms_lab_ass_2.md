@@ -16,7 +16,7 @@ CREATE TABLE supplier_0148
   city    varchar(20) NOT NULL
 );
 ```
-
+---
 ```plain
 CREATE TABLE parts_0148
 (
@@ -27,7 +27,7 @@ CREATE TABLE parts_0148
   city    varchar(20) NOT NULL
 );
 ```
-
+---
 ```plain
 CREATE TABLE project_0148
 (
@@ -36,7 +36,7 @@ CREATE TABLE project_0148
   city  varchar(20) NOT NULL
 );
 ```
-
+---
 ```plain
 CREATE TABLE spj_0148
 (
@@ -499,17 +499,6 @@ mysql> SELECT DISTINCT supplier_0148.city AS "supplier.city",
 +---------------+--------------+
 24 rows in set (0.04 sec)
 ```
-----------------------------------------------------
-12. Get sno values for suppliers who supply the same part to all projects. 
-
-```plain
-SELECT spj_0148.sno, spj_0148.pno, spj_0148.jno 
-FROM spj_0148, project_0148, supplier_0148
-WHERE spj_0148.jno = project_0148.jno
-AND spj_0148.sno = supplier_0148.sno
-ORDER BY spj_0148.sno;
-```
-
 ----------------------------------------------------
 13. Get pno values for parts supplied to all projects in London. 
 
