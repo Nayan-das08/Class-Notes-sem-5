@@ -109,10 +109,15 @@
 12. open any PC - desktop - web browser - put URL `https://<ip address of server2>` - GO
 13. the HTML page set in server2 is shown
 
-
-
 >[!NOTE]
->- 169.254.186.141 server2 ip address
 >- server0 = dhcp server
 >- server1 = dns server
 >- server2 = web server
+
+>[!NOTE]
+>- 169.254.186.141 server2 ip address
+
+
+
+# en ip addressing
+ssss
