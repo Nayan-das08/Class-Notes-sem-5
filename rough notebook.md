@@ -5,10 +5,10 @@
 4. MST - prim's and kruskal's
 5. greedy - knapsack (frac) and task/activity scheduling
 6. dynamic - knapsack (0/1)
+7. BFS/DFS
 
 - rest
 	- dijkstra
-	- BFS/DFS
 	- N-queen
 	- knpasack (backtracking)
 	- TSP (branch and bound)
@@ -119,5 +119,3 @@
 
 
 
-# en ip addressing
-ssss
