@@ -41,7 +41,6 @@ knapsack(M, items)
 
 int n, W;
 
-// void show(int **arr, int n, int W)
 void show(int arr[n][W], char mat_name)
 {
 	printf("%c  | ", mat_name);
@@ -105,23 +104,6 @@ int main()
 				keep[i][j] = -1;	
 			}
 
-/*	for (int i=1; i<n; i++)
-	{
-		for (int j=1; j<W; j++)
-		{
-			if (w[i] > j)
-			{
-				C[i][j] = C[i-1][j];
-				keep[i][j] = 0;
-			}
-			else if (w[i] <= j)
-			{
-				C[i][j] = max(C[i-1][j], v[i]+C[i-1][j-w[i]]);
-				keep[i][j] = 1;
-			}
-		}
-	}
-*/	
 	for (int i=1; i<n; i++)	
 	{
 		for (int j=1; j<W; j++)
@@ -199,3 +181,8 @@ Total Profit = 35
 ```
 
 ## Analysis
+In Global Knasack Problem (also known as 0/1 Knapsack Problem) we need to maximize the profit obtained by putting items with some values in the knapsack, but inlike Fractional Knapsack Problem, we cannot divide the items. We have only two options - either put the item in the knapsack or do not put it. 
+
+The Dynamic Programming approach is able to generate optimal solution for this problem. In this method, we maintain two matrices - _cost_ and _keep_ matrices. The size of the matrices is _number of items x max. capacity of knapsack_. We traverse through the _cost_ matrix, checking for each weight of knapsack weight limit if the current item plus the previous items can be accomodated with maximum profit in the knapsack. If the current item is added into the knapsack, we update the value of _keep_ matrix for the particular cell as _1_.
+
+To check which elements are added into the knapsack, i.e., to obtain the optimal solution we use the _keep_ matrix. 
