@@ -1,4 +1,5 @@
-# Lab
+# other shit
+## Lab
 1. binary and linear recursive search
 2. bubble selection and insertion sorts
 3. quick and merge sorts
@@ -6,14 +7,15 @@
 5. greedy - knapsack (frac) and task/activity scheduling
 6. dynamic - knapsack (0/1)
 7. BFS/DFS
+8. TSP (branch and bound)
 
 - rest
 	- dijkstra
 	- N-queen
 	- knpasack (backtracking)
-	- TSP (branch and bound)
+	- 
 ---
-# All Algorithms
+## All Algorithms
 - [x] ***Basics***
 	- [x] linear search
 	- [x] bubble sort
@@ -36,15 +38,15 @@
 	- [x] Longest Common Subsequence
 	- [x] 0/1 Knapsack
 	- [x] Matrix Chain Multiplication
-	- [ ] All pair shortest path
-		- [ ] Floyd-Warshall	
+	- [x] All pair shortest path
+		- [x] Floyd-Warshall	
 	- [ ] Travelling Salesman
 	- [ ] Single source shortest path
 		- [ ] Bellman-Ford
 - [ ] ***Graphs***
-	- [ ] Traversals
-		- [ ] BFS
-		- [ ] DFS
+	- [x] Traversals
+		- [x] BFS
+		- [x] DFS
 	- [ ] Backtracking
 		- [ ] 8-queen
 		- [ ] knapsack
@@ -53,7 +55,7 @@
 		- [ ] Travelling salesman
 
 ---
-# EN doubt
+## EN doubt
 1. do we send the frame with empty field?
 	- yes
 2. what is contained in the ARP request response?
@@ -62,7 +64,7 @@
 	- request sent before sending the required frame
 		- it is a sub-task
 
-# BS
+## BS
 | question | answer |
 | -------- | ------ |
 | 1        | 2      |
@@ -82,7 +84,7 @@
 | 15       |        |
 | 16       |       2 |
 
-# embedded git repos
+## embedded git repos
 - [ ] git_test
 - [x] java
 - [ ] python
@@ -94,7 +96,7 @@
 - [ ] shell
 	 - [x] cpu_scheduling (published)
 
-# en expt 9
+## en expt 9
 1. connect PCs to Switch
 2. connect Switch to Router (gigabitethernet)
 3. connect servers to switch (Fastethernet)
@@ -119,3 +121,29 @@
 
 
 
+public IPv4 addresses - which are routable
+
+a corp hq has been allocated a pub network address of `172.16.0.0/22` by ISP
+corp hq has dmz and 4 brnach offices with each neeiding its own public IPv4
+
+# AIML file contents
+1. python envt setup and essentials.
+2. create pandas series and dataframe from various inputs.
+3. indexing and selecting data using pandas.
+4. position and label based indexing using pandas
+5. slicing and dicing using pandas.
+6. marking and concatenation dataframes using pandas.
+7. grouping and summarizing dataframes using pandas.
+8. implementation of simple linear regression (sales data).
+9. implementation of multiple linear regression (housing data).
+10. data visualization using Python libraries.
+
+>[!NOTE]
+>don't forget to attach evaluation page
+
+aim
+software used
+theory
+source code
+
+open ended - spark fund assignment problem
