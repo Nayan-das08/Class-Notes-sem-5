@@ -126,7 +126,7 @@ public IPv4 addresses - which are routable
 a corp hq has been allocated a pub network address of `172.16.0.0/22` by ISP
 corp hq has dmz and 4 brnach offices with each neeiding its own public IPv4
 
-# AIML file contents
+## AIML file contents
 1. python envt setup and essentials.
 2. create pandas series and dataframe from various inputs.
 3. indexing and selecting data using pandas.
@@ -147,3 +147,11 @@ theory
 source code
 
 open ended - spark fund assignment problem
+
+# BS activities
+1. [x] belbin 18-21
+2. [x] tuckman obsidian
+3. [x] happiness 34-37
+4. [x] leadership 38-39
+5. [x] resilience 43-45
+6. [x] stress 46-47
