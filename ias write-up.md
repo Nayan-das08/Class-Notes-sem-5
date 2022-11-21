@@ -1,8 +1,7 @@
-I am a B.Tech. CSE (Artificial Intelligence & Machine Learning hons.) student at Amity University, Noida. I would like to apply for the Science Academies Summer Research Fellowship Program for Students 2023 in the field of Artificial Intelligence, Machine Learning, and its subsidiary branches like Deep Learning, Natural Language Processing, Computer Vision, etc. These fields interest me the most  
+My specific area of interest is Artificial Intelligence and its branches like Deep Learning, Natural Language Processing, Computer Vision, etc. It intrigues me how a model/algorithm/framework can match the computational level that comes so naturally to our brain. It is truly a work of art how certain models, especially ones created with the help of Neural Networks work to solve a problem. 
 
-Some of the work done by me in this field are: -
-1.      Solving Partial Differential Equations using Deep Learning Techniques.
-2.      Fire Detection Alarm System using Deep Learning.
-3.      I am currently working on a project on LSTM and its usage in botnet attack detection.
+I am well versed with traditional Machine Learning techniques involving statistical approach to solve problems and have worked with Neural Networks in some projects like "Solving Partial Differential Equations using Deep Learning Techniques", "Fire Detection Alarm System using Deep Learning" and am currently working on a project on LSTM and its usage in Botnet attack detection, where we explore the applications of AI in IoT. 
 
-I intend to work on Artificial Intelligence (or related fields), learn how the theoretical aspects help in creating new solutions to real-world problems and 
+While working on these projects I read extensively on Neural Networks - both influential papers and textbooks, and attended several online courses as well. I was able to grasp the theoretical aspects very quickly as mathematics and theory comes easily to me. 
+
+I would like to take this opportunity and obtain some professional experience in this field where I am able to work on a research project under an experienced faculty and assist them in their contributions to this field. This would be very beneficial for my training as I am a Computer Science undergraduate student with specialization in this exact field, and someone who aspires to work in this branch in future. 
