@@ -1,6 +1,5 @@
 >Chapter - [[EN 6.0 - Data Link Layer]]
 
-#Unlinked 
 #incomplete 
 Aug 31, 2022
 Topics - 

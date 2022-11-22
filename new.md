@@ -9,10 +9,6 @@ A write-up (not exceeding 150–250 words) as to the *specific area of interest
 7. [ ] < 250 words
 8. [ ] ask ma'am to approve
 
-## projects that i would like to work on
-1. 
-
-
 ---
 # guides
 
@@ -62,47 +58,21 @@ A write-up (not exceeding 150–250 words) as to the *specific area of interest
 |42|FL1632| Venkatesh Babu, Prof. R.|
 |43|FL4082| Viswanath, Dr Shruthi|
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
+# Labs
+Some Labs where I would like to work are :-
+1. ISI, Kolkata
+2. IISc, Bengaluru
+3. CDAC, Bengaluru
+4. IIIT, Hyderabad
+
+These institutes are currently working in my field of interest. 
+
+Also, kindly contact Dr. Supriya Raheja, Amity University, Noida (sraheja@amity.edu) for recommendation
+
+# Training / projects
+Projects
+1. Role of Machine Learning in Defense
+2. Solving Partial Differential Equations using Deep Learning Techniques
+3. Fire Detection Alarm System using Deep Learning
+Training
+1. Attended Faculty Development Programme on Recent Trends and Advances in Machine Learning, IIT Roorkee
