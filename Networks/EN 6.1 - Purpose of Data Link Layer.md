@@ -1,6 +1,5 @@
 >Chapter - [[EN 6.0 - Data Link Layer]]
 
-#incomplete 
 Aug 31, 2022
 Topics - 
 
@@ -43,7 +42,7 @@ Topics -
 
 ---
 # Providing access to media
-at each hop (from one NIC to another) the router performs these ***Lyer 2 tasks***
+at each hop (from one NIC to another) the router performs these ***Layer 2 tasks***
 1. accept the frame from a medium
 2. de-encapsulate the frame
 3. re-encapsulate the packet into a new frame
@@ -56,14 +55,14 @@ The Frame PDUs (header and trailer) change as per the medium being used
 - Data link protocols are not defined by RFC unlike upper layer protocols of TCP/IP suite
 - IETF doesn't define the functions and operations of Network Access Layer ([[EN 3.4 - layered models (OSI and TCP-IP)]])
 
->[!RFC - Request For Comments]
->- a formal document drafted by IETF ([[EN 3.7 - standard org]])
->- describes the specifications for some tech
->- example: FTP protocol was ratified as RFC 114 in April 1971, later replaced by RFC 765 in 1980 and then again by RFC 959 
-
-
 The protocols for Network Access Layer are :-
 - IEEE
 - ITU
 - ISO
 - ANSI
+
+>[!RFC - Request For Comments]
+>- a formal document drafted by IETF ([[EN 3.7 - standard org]])
+>- describes the specifications for some tech
+>- example: FTP protocol was ratified as RFC 114 in April 1971, later replaced by RFC 765 in 1980 and then again by RFC 959 
+
