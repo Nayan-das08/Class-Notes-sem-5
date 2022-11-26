@@ -1,6 +1,5 @@
 %%[[_Lab Files]]%%
 %%#lab_ada%% 
-%%#incomplete%% 
 # Experiment 8
 Oct 19, 2022
 

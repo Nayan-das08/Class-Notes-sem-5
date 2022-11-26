@@ -48,9 +48,9 @@ Topics -
 			- NIC use medium dependent interface crossover (auto-MDIX)
 			- automatically detect the cable type
 			- make internal connection accordingly
-		- **Rollover**
-			- Cisco proprietary
-			- workstation-router or workstation-switch console port
+	- **Rollover**
+		- Cisco proprietary
+		- workstation-router or workstation-switch console port
 
 | type                      | ends                       | role                                                  |
 | ------------------------- | -------------------------- | ----------------------------------------------------- |

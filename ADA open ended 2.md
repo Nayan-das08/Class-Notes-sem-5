@@ -1,6 +1,5 @@
 %%[[_Lab Files]]%%
 %%#lab\ada%% 
-%%#incomplete%% 
 # Open Ended Experiment 2
 
 ## Objective
