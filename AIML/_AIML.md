@@ -2,4 +2,8 @@
 # _AIML MOC
 
 ## Topics
-[[types of learning]]
+```dataview
+LIST 
+FROM [[_AIML]]
+sort file.name asc
+```

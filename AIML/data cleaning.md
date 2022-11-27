@@ -8,6 +8,7 @@ Topics -
 ## remove outliers
 remove high and low values that affects the result of analysis
 eg:
+
 | temp | date |
 | ---- | ---- |
 | 35   | 18/6 |
