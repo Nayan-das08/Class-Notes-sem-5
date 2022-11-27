@@ -34,6 +34,8 @@
 			- heatmap
 			- line graphs
 			- bubble chart
+			- run chart
+			- pair-plots
 
 >[!NOTE]
 >Study from *Towards Data Science (Medium)*

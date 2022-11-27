@@ -1,27 +1,29 @@
+>Chapter - [[_AIML]]
+
 # Sheebu's notes for AIML301
 
 1. Data science involves using methods to analyse massive amounts of data and extract the knowledge it contains.
 
 2. Data lifecycle
-	2.1 Business understanding and data collection
-	2.2. data preparation
-	2.3 EDA
-	2.4 Modelling
-	2.5 Model evaluation
-	2.6 model deployment	
+	- Business understanding and data collection
+	-  data preparation
+	- EDA
+	- Modelling
+	- Model evaluation
+	- model deployment	
 
 3. Data science process
-	3.1. Setting the research goal
-	3.2. Retrieving Data
-	3.3. Data preparation (cleaning, transforming, combining)
-	3.4. Data exploration
-	3.5. Data modelling
-	3.6. Presentation and automation
+	- Setting the research goal
+	- Retrieving Data
+	- Data preparation (cleaning, transforming, combining)
+	- Data exploration
+	- Data modelling
+	- Presentation and automation
 
 4. Data Cleaning
-	-   Used for sanitizing data
-	-   Increase model performance
-	-   Avoid strange outputs
+	- Used for sanitizing data
+	- Increase model performance
+	- Avoid strange outputs
 
 Errors can be of two types:
 	1.  Interpretation error: eg age above 300
@@ -35,7 +37,7 @@ Errors can be of two types:
 | Missing values        | Remove observation or value                       |
 | outliers              | Validate and if errorneous treat as missing value |
 
-Missing values treatment
+# Missing values treatment
 
 | Technique                                                | Advantage                          | Disadvantage                                                                         |
 | -------------------------------------------------------- | ---------------------------------- | ------------------------------------------------------------------------------------ |
@@ -199,8 +201,10 @@ Feature Selection: Select a subset of input features from the dataset. 
 1.  Unsupervised: Do not use the target variable (e.g. remove redundant variables). eg: Correlation 
 2.  Supervised: Use the target variable (e.g. remove irrelevant variables). 
 	- Wrapper: Search for well-performing subsets of features. 
-		- RFE: by algos, forward: aaram se dekhke daalo, 
-		- backward: daaldo fiir dekhke nikalo, exhaustive: brute force karo 
+		- Recursive Feature Elimination: by greedy algos 
+		- forward: aaram se dekhke daalo
+		- backward: daaldo fiir dekhke nikalo
+		- exhaustive: brute force karo
 	- Filter: Select subsets of features based on their relationship with the target. 
 		- Statistical Methods: chi-squared testing, information gain(entropy) 
 		- Feature Importance Methods: fisher test(rank of features) 
