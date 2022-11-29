@@ -158,37 +158,37 @@ open ended - spark fund assignment problem
 	- [x] computational complexity
 		- [x] P, NP, NP-hard, NP-complete
 		- [x] NP-hard problems
-	- [x] problems
+	- [ ] problems
 		- [x] ***Divide and Conquer***
 			- [x] Strassen method 
 		- [ ] ***Greedy***
-			- [ ] Prim's
+			- [x] Prim's
 			- [x] Kruskal's
 			- [x] Fractional Knapsack
-			- [ ] Dijkstra's
+			- [x] Dijkstra's
 			- [x] Travelling salesman
-			- [ ] Job scheduling
+			- [x] Job scheduling
 		- [ ] ***Dynamic Programming***
 			- [x] Longest Common Subsequence
-			- [ ] 0/1 Knapsack
-			- [ ] Matrix Chain Multiplication
-			- [ ] Floyd-Warshall
-			- [ ] Travelling Salesman
-			- [ ] Bellman-Ford
+			- [x] 0/1 Knapsack
+			- [x] Matrix Chain Multiplication
+			- [x] Floyd-Warshall
+			- [x] Travelling Salesman
+			- [x] Bellman-Ford
 		- [ ] ***Graphs***
-			- [ ] BFS
-			- [ ] DFS
-			- [ ] n-queen
-			- [ ] knapsack
-			- [ ] 0/1 knapsack
-			- [ ] Travelling salesman
-			- [ ] Hamiltonian graph
+			- [x] BFS
+			- [x] DFS
+			- [x] n-queen
+			- [x] knapsack
+			- [x] 0/1 knapsack
+			- [x] Travelling salesman
+			- [x] Hamiltonian graph
 			- [x] subset sum
-	- [ ] asymptotic notations
-	- [ ] recursive relations
-		- [ ] substitution
-		- [ ] master's method
-		- [ ] recursion tree
+	- [x] asymptotic notations
+	- [x] recursive relations
+		- [x] substitution
+		- [x] master's method
+		- [x] recursion tree
 
 - [ ] Algorithms
 	- [ ] ***Basics***
@@ -202,30 +202,22 @@ open ended - spark fund assignment problem
 		- [x] quick sort
 		- [x] Strassen method 
 	- [ ] ***Greedy***
-		- [ ] MST
-			- [ ] Prim's
-			- [ ] Kruskal's
+		- [x] Prim's
+		- [x] Kruskal's
 		- [x] Fractional Knapsack
-		- [ ] Single source shortest path
-			- [ ] Dijkstra's
+		- [x] Dijkstra's
 		- [x] Travelling salesman
-		- [ ] Job scheduling
+		- [x] Job scheduling
 	- [ ] ***Dynamic Programming***
 		- [x] Longest Common Subsequence
-		- [ ] 0/1 Knapsack
+		- [x] 0/1 Knapsack
 		- [ ] Matrix Chain Multiplication
-		- [ ] All pair shortest path
-			- [ ] Floyd-Warshall	
-		- [ ] Travelling Salesman
-		- [ ] Single source shortest path
-			- [ ] Bellman-Ford
+		- [x] Floyd-Warshall	
+		- [x] Travelling Salesman
+		- [ ] Bellman-Ford
 	- [ ] ***Graphs***
-		- [ ] Traversals
-			- [ ] BFS
-			- [ ] DFS
-		- [ ] Backtracking
-			- [ ] n-queen
-			- [ ] knapsack
-		- [ ] branch and bound
-			- [ ] 0/1 knapsack
-			- [ ] Travelling salesman
+		- [x] BFS
+		- [x] DFS
+		- [ ] n-queen
+		- [x] 0/1 knapsack
+		- [x] Travelling salesman
