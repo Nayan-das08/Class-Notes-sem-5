@@ -8,20 +8,17 @@
 6. dynamic - knapsack (0/1)
 7. BFS/DFS
 8. TSP (branch and bound)
+9. dijkstra and bellman-ford
+10. N-queen
 
-- rest
-	- dijkstra
-	- N-queen
-	- knpasack (backtracking)
-	- 
 ---
 ## All Algorithms
-- [x] ***Basics***
+- [ ] ***Basics***
 	- [x] linear search
 	- [x] bubble sort
 	- [x] selection sort
 	- [x] insertion sort
-- [x] ***Divide and Conquer***
+- [ ] ***Divide and Conquer***
 	- [x] binary search
 	- [x] merge sort
 	- [x] quick sort
@@ -31,8 +28,8 @@
 		- [x] Prim's
 		- [x] Kruskal's
 	- [x] Fractional Knapsack
-	- [ ] Single source shortest path
-		- [ ] Dijkstra's
+	- [x] Single source shortest path
+		- [x] Dijkstra's
 	- [ ] Travelling salesman
 - [ ] ***Dynamic Programming***
 	- [x] Longest Common Subsequence
@@ -41,18 +38,18 @@
 	- [x] All pair shortest path
 		- [x] Floyd-Warshall	
 	- [ ] Travelling Salesman
-	- [ ] Single source shortest path
-		- [ ] Bellman-Ford
+	- [x] Single source shortest path
+		- [x] Bellman-Ford
 - [ ] ***Graphs***
 	- [x] Traversals
 		- [x] BFS
 		- [x] DFS
 	- [ ] Backtracking
-		- [ ] 8-queen
+		- [x] n-queen
 		- [ ] knapsack
 	- [ ] branch and bound
 		- [ ] 0/1 knapsack
-		- [ ] Travelling salesman
+		- [x] Travelling salesman
 
 ---
 ## EN doubt
@@ -148,10 +145,87 @@ source code
 
 open ended - spark fund assignment problem
 
-# BS activities
+## BS activities
 1. [x] belbin 18-21
 2. [x] tuckman obsidian
 3. [x] happiness 34-37
 4. [x] leadership 38-39
 5. [x] resilience 43-45
 6. [x] stress 46-47
+
+# ADA prep
+- [ ] theory
+	- [x] computational complexity
+		- [x] P, NP, NP-hard, NP-complete
+		- [x] NP-hard problems
+	- [x] problems
+		- [x] ***Divide and Conquer***
+			- [x] Strassen method 
+		- [ ] ***Greedy***
+			- [ ] Prim's
+			- [x] Kruskal's
+			- [x] Fractional Knapsack
+			- [ ] Dijkstra's
+			- [x] Travelling salesman
+			- [ ] Job scheduling
+		- [ ] ***Dynamic Programming***
+			- [x] Longest Common Subsequence
+			- [ ] 0/1 Knapsack
+			- [ ] Matrix Chain Multiplication
+			- [ ] Floyd-Warshall
+			- [ ] Travelling Salesman
+			- [ ] Bellman-Ford
+		- [ ] ***Graphs***
+			- [ ] BFS
+			- [ ] DFS
+			- [ ] n-queen
+			- [ ] knapsack
+			- [ ] 0/1 knapsack
+			- [ ] Travelling salesman
+			- [ ] Hamiltonian graph
+			- [x] subset sum
+	- [ ] asymptotic notations
+	- [ ] recursive relations
+		- [ ] substitution
+		- [ ] master's method
+		- [ ] recursion tree
+
+- [ ] Algorithms
+	- [ ] ***Basics***
+		- [x] linear search
+		- [x] bubble sort
+		- [x] selection sort
+		- [x] insertion sort
+	- [ ] ***Divide and Conquer***
+		- [x] binary search
+		- [x] merge sort
+		- [x] quick sort
+		- [x] Strassen method 
+	- [ ] ***Greedy***
+		- [ ] MST
+			- [ ] Prim's
+			- [ ] Kruskal's
+		- [x] Fractional Knapsack
+		- [ ] Single source shortest path
+			- [ ] Dijkstra's
+		- [x] Travelling salesman
+		- [ ] Job scheduling
+	- [ ] ***Dynamic Programming***
+		- [x] Longest Common Subsequence
+		- [ ] 0/1 Knapsack
+		- [ ] Matrix Chain Multiplication
+		- [ ] All pair shortest path
+			- [ ] Floyd-Warshall	
+		- [ ] Travelling Salesman
+		- [ ] Single source shortest path
+			- [ ] Bellman-Ford
+	- [ ] ***Graphs***
+		- [ ] Traversals
+			- [ ] BFS
+			- [ ] DFS
+		- [ ] Backtracking
+			- [ ] n-queen
+			- [ ] knapsack
+		- [ ] branch and bound
+			- [ ] 0/1 knapsack
+			- [ ] Travelling salesman
