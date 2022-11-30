@@ -1,3 +1,5 @@
+>Chapter - [[_NTCC 2nd yr]]
+
 # ANN Concepts
 We will jot down brief notes about various concepts of ANN here
 Note: Any mathematical thing will be written in physical diary

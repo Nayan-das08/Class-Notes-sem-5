@@ -1,3 +1,5 @@
+>Chapter - [[_NTCC 2nd yr]]
+
 # Rough idea
 * implement the idea of PINN on examples of *one dimensional wave equation* (and damped wave equation, if time persists)
 *  try different methods of data selection

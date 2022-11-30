@@ -1,3 +1,5 @@
+>Chapter - [[_NTCC 2nd yr]]
+
 # 1. Lagaris et. al.
 ## Artificial Neural Networks for solving Partial Order Differential Equations
 Presents a technique to solve initial value and various boudnary value differential equation problems with the help of Artificial Neural Networks (ANN). The said approach is applicable for ODEs, systems of ODEs and PDEs. 

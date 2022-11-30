@@ -1,3 +1,5 @@
+>Chapter - [[_NTCC 2nd yr]]
+
 # rough notes
 * get plots for 
 	* training set size = 100, 500, 1000, 5000

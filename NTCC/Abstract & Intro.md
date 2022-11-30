@@ -1,3 +1,5 @@
+>Chapter - [[_NTCC 2nd yr]]
+
 # Abstract
 This paper discusses the application of supervised machine learning technique for solving PDE initial value and boundary value problems. we have used Artificial Neural Networks (ANN) for this problem, in which a well trained model maps the values of independent variables of a function to get the required solution for the PDE with appropriate constraints. There have been many significant research in this field and most of them use ANN approach for their models. Although the papers published provide formidable solutions, but the model proposed here is a rather simple and straightforward approach to the problem, which manages to give results with appreciable accuracy. 
 
