@@ -11,7 +11,7 @@ sort file.name asc
 
 ## Summary
 
-### Network Layer Characteristics
+### 8.1 Network Layer Characteristics
 - The network layer (OSI Layer 3) provides services to allow end devices to exchange data across networks
 - IPv4 and IPv6 are the principle network layer communication protocols
 - The network layer also includes the routing protocol OSPF and messaging protocols such as ICMP
@@ -25,18 +25,18 @@ sort file.name asc
 - This is the definition of the unreliable, or best effort characteristic
 - IP operates independently of the media that carry the data at lower layers of the protocol stack
 
-### IPv4 Packet
+### 8.2 IPv4 Packet
 - An IPv4 packet header consists of fields containing information about the packet
 - These fields contain binary numbers which are examined by the Layer 3 process
 - The binary values of each field identify various settings of the IP packet
 - Significant fields in the IPv4 packet header include: version, DS, header checksum, TTL, protocol, and the source and destination IPv4 addresses
 
-### IPv6 Packet
+### 8.3 IPv6 Packet
 - IPv6 is designed to overcome the limitations of IPv4 including: IPv4 address depletion, lack of end-to-end connectivity, and increased network complexity
 - IPv6 increases the available address space, improves packet handling, and eliminates the need for NAT
 - The fields in the IPv6 packet header include: version, traffic class, flow label, payload length, next header, hop limit, and the source and destination IPv6 addresses
 
-### How a Host Routes
+### 8.4 How a Host Routes
 - A host can send a packet to itself, another local host, and a remote host
 - In IPv4, the source device uses its own subnet mask along with its own IPv4 address and the destination IPv4 address to determine whether the destination host is on the same network
 - In IPv6, the local router advertises the local network address (prefix) to all devices on the network, to make this determination
@@ -47,7 +47,7 @@ sort file.name asc
 - In IPv6, the router advertises the default gateway address, or the host can be configured manually
 - On a Windows host, the route print or netstat -r command can be used to display the host routing table
 
-### Introduction to Routing
+### 8.5 Introduction to Routing
 - When a host sends a packet to another host, it consults its routing table to determine where to send the packet
 - If the destination host is on a remote network, the packet is forwarded to the default gateway which is usually the local router
 - What happens when a packet arrives on a router interface? The router examines the packet’s destination IP address and searches its routing table to determine where to forward the packet

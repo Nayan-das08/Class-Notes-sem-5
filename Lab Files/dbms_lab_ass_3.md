@@ -1,3 +1,5 @@
+%%[[_Lab Files]]%%
+%%#lab/dbms%%
 # DBMS Lab Assignment Question 3
 ## Database Schema
 | Entity     | Attributes                                                          |

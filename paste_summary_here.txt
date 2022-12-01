@@ -1,0 +1,1 @@
+- Much like ARP for IPv4, IPv6 devices use IPv6 ND to resolve the MAC address of a device to a known IPv6 address 
