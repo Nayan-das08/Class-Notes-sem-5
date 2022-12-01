@@ -21,6 +21,7 @@ Host can send a packet to
 ![[Pasted image 20221126183444.png]]
 
 Determining whether packet is destined for <u>local host</u> or <u>remote host</u>
+
 | IP version | method                                                                                             |
 | ---------- | -------------------------------------------------------------------------------------------------- |
 | in IPv4    | source device uses its subnet mask with its own <u>IPv4 address</u> and <u>destination address</u> |
