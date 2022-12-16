@@ -1,6 +1,5 @@
 >Chapter - [[_AIML]]
 
-#Unlinked 
 #incomplete 
 Aug 22, 2022
 Topics - 
