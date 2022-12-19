@@ -1,5 +1,3 @@
-date: Dec 16 ,22
-
 >Links: [[Machine Learning Specialization]]
 
 ## Formal Definitions
